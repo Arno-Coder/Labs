@@ -1,0 +1,16 @@
+print("The distinguished gentleman is making reservations at the restaurant.")
+first_name = input("First name:")
+last_name = input("Last name:")
+date_of_birth = input("Date of birth for special places:")
+
+print()
+print("Now he's at the restaurant")
+first_answer = input("Would you like some cheese on top, sir?")
+second_answer = input("Would you also like some in your water, sir?")
+
+print()
+print("All the data that the waiter remembered:")
+print("Full name:", first_name, last_name)
+print("Date of birth:", date_of_birth)
+print("Answer to the first question:", first_answer)
+print("Answer to the second question:", second_answer)
